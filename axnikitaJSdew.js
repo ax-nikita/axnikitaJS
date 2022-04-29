@@ -5,8 +5,8 @@ const
 	AX_LOADER_ATTR_SPA = 'min';
 
 window.ax_lib_info = {
-	version: "2.30",
-	last_update: "02.02.2022"
+	version: "2.31",
+	last_update: "30.04.2022"
 };
 
 Object.defineProperty(Object.prototype, "reIndexArr", {
