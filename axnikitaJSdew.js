@@ -373,7 +373,7 @@ axRequest = class axRequest {
 		}
 
 		if (this.saveLoadData) {
-			dataKeys = data.keys();
+			dataKeys = Object.keys(data);
 			if (!this.constructor.loadData[href]) {
 				this.constructor.loadData[href] = {};
 			};
@@ -506,6 +506,199 @@ axDate = class axDate {
 		if (type == 2) return Hours + ":" + Minutes + " " + Day + "." + Month + "." + Year;
 	};
 };
+
+class axGlossary {
+	static lib;
+	static localStorageKey = 'glossary_';
+	static glossariesPath = 'resources/glossaries/glossary_';
+
+	static get(type, key, obj = false) {
+		let
+			string = this.lib[type][key];
+		if (!string) {
+			return key;
+		}
+
+		if (obj) {
+			let
+				r = new RegExp('%(' + Object.keys(obj).join('|') + ')%', 'gum'),
+				replacer = (match, p1) => {
+					return obj[p1];
+				};
+
+			string = string.replace(r, replacer);
+		}
+		return string;
+	}
+
+	static load() {
+		let
+			data = localStorage[this.localStorageKey + axCookie.getValue('lang')];
+
+		if (!data) {
+			this.pullFromApi();
+		} else {
+			let
+				dataObj = JSON.parse(data);
+
+			if (dataObj.time > Date.now()) {
+				this.lib = dataObj.data;
+			} else {
+				this.pullFromApi();
+			}
+		}
+	}
+
+	static pullFromApi() {
+		if (!axCookie.getValue('lang')) {
+			return;
+		}
+		let
+			api = new axRequest(this.glossariesPath + axCookie.getValue('lang') + '.json');
+
+		api.execute({}, (r) => {
+			let data;
+			try {
+				data = {
+					time: Date.now() + 1440000,
+					data: JSON.parse(r)
+				};
+			} catch (error) {
+				return;
+			}
+
+			localStorage.setItem(this.localStorageKey + axCookie.getValue('lang'), JSON.stringify(data));
+			this.lib = data.data;
+		});
+	}
+}
+
+class axNotification {
+	static list = [];
+	static glossary_class = axGlossary;
+
+	static box(html) {
+		let
+			box = new axNode('div');
+
+		box.innerHTML = html;
+		box.classList.add('box-1', 'notification');
+		box.run = this.run;
+		box.runtimer = this.runtimer;
+		box.noti_class = this;
+
+		return box;
+	}
+
+	static error(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'message');
+		}
+		let
+			box = this.box(html);
+
+		box.classList.add('error');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static glossary() {
+		return this.glossary_class;
+	}
+
+	static message(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'message');
+		}
+
+		let
+			box = this.box(html);
+
+		box.classList.add('message');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static success(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'success');
+		}
+
+		let
+			box = this.box(html);
+
+		box.classList.add('success');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static warning(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'warning');
+		}
+
+		let
+			box = this.box(html);
+
+		box.classList.add('warning');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static append(el) {
+		axQS('body').append(el);
+		let
+			height = el.clientHeight;
+		this.list.forEach(element => {
+			let
+				bottom = parseInt(element.style['bottom']) + height + 10;
+
+			element.style['bottom'] = bottom + 'px';
+		});
+		this.list.push(el);
+	}
+
+	static remove(el) {
+		let
+			index = this.list.indexOf(el);
+		this.list.splice(index, 1);
+		el.remove();
+	}
+
+	static run() {
+		let
+			bottom = parseInt(this.style['bottom']);
+
+		if (isNaN(bottom)) {
+			this.style['opacity'] = 1;
+			this.style['bottom'] = 10 + 'px';
+			console.dir(this);
+			this.noti_class.append(this);
+			window.addEventListener('mousemove', () => {
+				setTimeout(() => { this.run() }, 4000);
+			}, { once: true });
+		} else if (this.style['opacity'] < 0.01) {
+			this.noti_class.remove(this);
+		} else {
+			bottom += 10;
+			this.style['bottom'] = bottom + 'px';
+			this.style['opacity'] = this.style['opacity'] - (0.11 - (this.style['opacity'] / 15));
+			setTimeout(() => { this.run() }, 30);
+		}
+	}
+}
 
 axNodeConection = class axNodeConection {
 	constructor(class1, class2, class3 = false, type = false) {
