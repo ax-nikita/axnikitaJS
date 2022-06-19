@@ -1,1 +1,2044 @@
-eval(function (p, a, c, k, e, d) { e = function (c) { return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36)) }; if (!''.replace(/^/, String)) { while (c--) { d[e(c)] = k[c] || e(c) } k = [function (e) { return d[e] }]; e = function () { return '\\w+' }; c = 1 }; while (c--) { if (k[c]) { p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]) } } return p }('26 47=\'8H\',36=\'7d\',4n=\'7b\',7a=\'79\';1k.4t={6b:"2.31",6a:"30.78.77"};E.1P(E.Q,"3H",{1U:h,1X:F});E.1P(1j.Q,"3H",{1U:h,1X:F});E.Q.3H=L(){9 1q=[];1s(26 k 2K q){1q.11(6[k])};8 1q};1j.Q.3H=L(){9 1q=[];6.B(e=>{1q.11(e)});8 1q};L 2C(s){8 1G.5L(s)};L 1u(s){8 1G.5X(s)};W=O W{C(1E){9 o;7(1E.2F(/[\\[\\.]/)){9 2u=[],1c=[],4I=/\\.[\\w-]+/g,5g=/\\[.+?]/g;2u=1E.2F(4I);1E=1E.6f(4I,\'\');1c=1E.2F(5g);1E=1E.6f(5g,\'\');o=1G.6h(1E);7(2u&&2u.12>0){2u=2u.73(34=>34.3I(1));o.69(2u.3T(\' \'))};7(1c&&1c.12>0){1c.B(1e=>{1e=1e.3I(1,-1);1e=1e.2J(\'=\');7(1e[1]===M){1e[1]=\'\'};o.4c(1e[0],1e[1])})}}n{o=1G.6h(1E)}8 o};69(34=2i){9 d=6;7(1y(d)!="R"||d.6n==M)8 h;7(34!==2i)d.2p=34;n 8 d.2p;8 d};2R(Y=2i){65(6.6n){2x\'71\':2x\'7e\':6.3h=\'m\';2a;2x\'7D\':6.3h=\'2W\';2a;64:6.3h=\'4N\';2a};6.2R=L(Y=2i){7(Y!==2i){6[6.3h]=Y;8 6}n{8 6[6.3h]}};8 6.2R(Y)};5S(1g=h,m=h,46=7C){9 o=6;7(1g==\'5T\'){o.2X--}n 7(o.2X>0){o.2X=10;8}n{o.3m=[];o.3Y=\'\';o.3j=\'\';o.2X=10;7(!1g){1g="6o";o.3m=[[\'2D-1F\',o.1g[\'2D-1F\']]];o.1g[\'2D-1F\']=1g}n{1g=1g.2J(\'&&\');1g.B(e=>{e=e.2J(\'=\');7(e.12==1){o.3m.11([\'2D-1F\',o.1g[\'2D-1F\']]);o.1g[\'2D-1F\']=e[0]}n{o.3m.11([e[0],o.1g[e[0]]]);o.1g[e[0]]=e[1]}})};7(m!==h){o.3j=o.2R();7(o.3j===h){o.3j=\'\'};o.2R(m);7(o.u==\'7f\'){o.3Y=o.u;o.u=\'2v\'}}};7(o.2X<=0){o.3m.B(e=>{o.1g[e[0]]=e[1]});7(o.3Y!=\'\'){o.u=o.3Y};7(m!=\'\'){o.2R(o.3j)}o.2X=0}n{2Y(()=>{o.5S(\'5T\')},46)}};6P(I,m=M){7(m===M){8 6.20(I)}n{6.4c(I,m);8 6}};2C(s){8 6.5L(s)};1u(s){8 6.5X(s)};4x(5Y=[]){9 1c=E.2k(1I.1c),D=[];1c.B((v)=>{7(!5Y.7r(v)){D.11(\'[\'+v+\']\')}});6.1u(D.3T(\',\')).B((c)=>{1c.B((1e)=>{7(c.20(1e)!==2i){1I.1c[1e].23(c)}})});8 6}};O 1I{17 1c={};17 37(1e,1i){9 1c=1I.1c;7(1c[1e]===M){1c[1e]=[1i]}n{1c[1e].11(1i)}}};1I.37(47,(c)=>{9 o=(t 3g(c.20(47))).2y;c.2r(o)});1I.37(36,(c)=>{9 o=(t 1r(c.20(36))).2y;c.2r(o)});1I.37(\'7k\',(c)=>{c.1b(\'1d\',L(e){e.7j();9 1f=6.20(\'1f\');7(1f==\'#\'){8 h};9 1z=t 3x(1f,{4w:F});1z.5K();1z.6Y(36);9 3b=t 1r(1z.1K);3b.4f(\'2S\');2C(\'2S\').2r(3b.2y);3b.4f(\'63\');2C(\'63\').2r(3b.2y)})});68=O 68{C(18){6.K=1u(\'[N-18~="\'+18+\'"]\')}7A(1i){6.K.B((c)=>{1i(c)})}7i(){6.K.B((c)=>{c.3R()})}};1I.37(\'N-18\',(c)=>{9 1Z=2f,6R=c.6P(\'N-18\').2J(\' \');6R.B(18=>{7(1y(1Z.1Y[18])==\'R\'){1Z.1Y[18].23(c)}n{7(!2f.2O[18]){2f.2O[18]=[]}2f.2O[18].11(c)}})});(()=>{9 q=E.5n(W.Q);q.B(2B=>{7(2B!==\'C\')7l.Q[2B]=W.Q[2B]})})();L 7F(6H){26 d=1S.24();9 4R=2i;7o{4R=1S.24()}7s(4R-d<6H)};4T=O 4T{3o=\'\';u=\'7v\';4H=\'2v\';7w={};6G={};6V=h;4p={};17 V={};C(13,q={}){6.13=13;E.1Q(6,q);8 F};7x(){6.C.V[6.3o+6.13]={}};5t(N,1i){9 2e=t 7y(),3J,1f=6.3o+6.13,V,u=6.u;7(1y(N)==\'R\'){N=E.1Q(N,6.6G);7(E.2k(N).12==0){u="4l"}n{7(u=="4l"){9 1z=t 3x(1f);1z.6Z(N);1f=1z.1K}n{N=N.3n()}}}n{u="4l"};2e.76(u,1f);1s(26 4q 2K 6.4p){2e.72(4q,6.4p[4q])}7(6.6V){3J=N.2k();7(!6.C.V[1f]){6.C.V[1f]={}};V=6.C.V[1f];7(3J.70){7(V.m){1i(V.m);8 F}}n{1s(4g P 6X 3J){9 m=N.1V(P);7(!V[P]){V[P]={}}V=V[P];7(1y(m)===\'R\'){m=3B.5f(m)}7(!V[m]){V[m]={}}V=V[m]}7(V.m){1i(V.m);8 F}}}2e.74(N);2e.4H=6.4H;2e.7c=()=>{9 59=2e.7p;7(V){V.m=59}1i(59)};7(6.5r!=M)2e.7q=L(1v){9 1T=1v.7m/1v.7n;6.5r(1T)};8 F}};E.1P(E.Q,"3n",{1U:h,1X:F});E.1P(1j.Q,"3n",{1U:h,1X:F});E.Q.3n=L(){9 2L=t 5F();1s(26 k 2K 6){2L.1h(k,6[k])};8 2L};1j.Q.3n=L(){9 2L=t 5F();6.B((v,k)=>{2L.1h(k,v)});8 2L};E.1P(3d.Q,"2E",{1U:h,1X:F});3d.Q.2E=L(12=2,5v=\'0\'){8(5v.42(12-1)+6).3I(-12)};58=O 58{C(1R=h){6.3w=1R}7h(){8 2T(t 1S().7u()/z)}5i(4e=0){9 1R=6.3w,1H;7(1R){1R=1R.4E(/\\s+/g,\'T\')+"Z";1R=1S.6N(1R)+4e;1H=t 1S(1R)}n{1H=t 1S()};8 1H}7z(){8 6.4P(2,-6d)}4P(u=1,4e=0){9 1H=6.5i(4e);9 5h=1H.7B().2E(),4X=1H.7E().2E(),5m=1H.7t().2E(),5j=(1H.7g()+1).2E(),32=" "+1H.75();32=32[3]+32[4];7(u==1)8 4X+":"+5h;7(u==2)8 4X+":"+5h+" "+5m+"."+5j+"."+32}};5J=O 5J{C(3C,3M,3N=h,u=h){9 2G=[],2q=[];7(!3N){3N=\'35\'};7(1j.1A(3C))3C.B(e=>{2G=2G.5G(1u(e))});n 2G=1u(3C);7(1j.1A(3M))3M.B(e=>{2q=2q.5G(1u(e))});n 2q=1u(3M);7(2G==M||2q==M)8 h;L 5I(){2q.B(e=>{7(e.2p==e.38){e.2p+=\' \'+3N;7(u)1G.1b(\'1d\',()=>{e.2p=e.38},F)}n{e.2p=e.38}})};2q.B(e=>{7(e.38==M){e.38=e.2p}});2G.B(e=>{e.1b(\'1d\',5I)})}};5l=O 5l{17 3i(I){9 4W=1G.5E.2F(t 7H("(?:^|; )"+I.4E(/([\\.$?*|{}\\(\\)\\[\\]\\\\\\/\\+^])/g,\'\\\\$1\')+"=([^;]*)"));8 4W?8F(4W[1]):M};17 8E(I,m,2j={}){2j={8D:\'/\',...2j};7(2j.56 8C 1S){2j.56=2j.56.8B()};9 43=5w(I)+"="+5w(m);1s(9 4M 2K 2j){43+="; "+4M;9 4D=2j[4M];7(4D!==F){43+="="+4D}};1G.5E=43};17 8A(I){8z(I,"",{\'4F-8y\':-1})}};4y=O 4y{C(){9 q=E.5n(6);q.B(2B=>{7(2B!==\'C\')6[2B]()})};4B(){4g 5p=L(u,I,q){q=q||1k;4g 4d=h;4g 1i=L(){7(4d){8}4d=F;61(L(){q.8w(t 8o(I));4d=h})};q.1b(u,1i)};5p("8v","4B")}};t 4y;27=O 27{8u=50;K=[];C(D){1u(D+\'[4o-2W]\').B(e=>{9 1o=e.5s();7(3X.4F(1o.5B,1o.40)!=0&&1o.40-1o.1a<1k.5z){e.2W=e.20(\'4o-2W\')}n{7(27.K.12!=0){27.K.11(e);6.4i();1k.1b(\'1d\',6.4h);1k.1b(\'4B\',6.4h);1k.1b(\'8t\',6.4h)}n{27.K.11(e)}}})};3l(){1s(9 i=0;i<27.K.12;i++){9 e=27.K[i],1o=e.5s();7(3X.4F(1o.5B,1o.40)!=0&&1o.40-1o.1a+((1o.1a<5H)?1o.1a:5H)<1k.5z){e.2W=e.20(\'4o-2W\');27.K.4v(i,1);i--}}};4h(){6.3l();2Y(6.3l,50);2Y(6.3l,8r)};4i(){6.3l();2Y(6.4i,8q)}};8p.Q.с41=L(2o=h,A={}){9 c=t W(\'2c\');c.4N=6.8G();7(A.1I!==h){c.4x(A.8x)}7(2o){8 c.1u(2o)}n{8[c.8I]}};3F=O 3F{3o=\'\';3s={};8T=0;25=\'2c\';C(21,q={}){E.1Q(6,q);E.1Q(21,6);8 q}};1r=O 1r{D=h;2H=[];3k(o){6.2H.23(o);8 o};8S(f){6.2H.11(f);8 6};8J(){6.2H=[]};C(I,q={}){E.1Q(6,q);6.I=I;6.13=(q.13===M||q.13===h)?6.C.3o:q.13;7(q.D!==M){6.4f(q.D)};6.25=6.C.25;8 6};1V 2y(){9 C=6.C,U=C.3s;7(!U[6.13]){U[6.13]={};U[6.13][6.I]=t C.3f(6)}n 7(!U[6.13][6.I]){U[6.13][6.I]=t C.3f(6)};9 o=U[6.13][6.I].4Q(6);o.3p=6.3p;o.1r=6;8 o};3p(){6.2r(6.1r.2y)};4f(2o=h){6.D=2o;7(/^[a-z]+$/.6O(2o)){6.25=2o}n{6.25=6.C.25}};5u(){7(!6.C.3s[6.13]){6.C.3s[6.13]={}};6.C.3s[6.13][6.I]=M;8 6.2y}};t 3F(1r);O 5k{m=h;U={};3i(q,D){7(6.U[D]==M||6.U[D].m==M){6.5y(q,D);8 q.m.с41(D)[0]}n{8 6.U[D].m.с41()[0]}};5y(q,D){7(6.U[D]==M||!6.U[D].1T){9 o=q.m.с41(D,{1I:h})[0];6.U[D]={};6.U[D].1T=h;7(o.5C==\'#2v\'){6.U[D].m=o.5D}n{6.U[D].m=o.5o}}};5x(){6.U={}};5q(o,D){7(o.5C==\'#2v\'){6.U[D].m=o.5D;6.U[D].1T=h}n 7(o.2C(\'3e[\'+47+\'], [\'+36+\'], [\'+4n+\']\')==M){6.U[D].m=o.5o;6.U[D].1T=h}n{2Y(()=>{6.5q(o,D)},50)}}};1r.3f=O{28=h;m=h;3O=[];4m=t 5k;4r={};C(q){E.1Q(6,q)};8K(q){6.m=h;6.28=h;8 6.4Q(q)};1V 1z(){8 6.13+6.I};4Q(q){7(6.m===h&&6.28===h){6.28=F;9 1z=6.1z,5A=t 4T(1z,6.4r);5A.5t({},(r)=>{7(6.28===F){6.4m.5x();6.m=r;6.3O.B(c=>{9 1p=c.21.3k(6.4k(c.21.D));1p.3p=c.3p;1p.1r=c.1r;c.2r(1p)});6.3O=[];6.28=h}})};8 6.3i(q)};5u(){6.m=h;6.28=h};3i(q){7(6.28){9 1p=t W(q.25);1p.21={};1p.21.2H=q.2H.3I();1p.21.3k=q.3k;1p.21.D=q.D;1p.4c(4n,\'\');6.3O.11(1p);8 1p}n{8 q.3k(6.4k(q.D))}};4k(D){8 6.4m.3i(6,D)}};3g=O 3g 53 1r{4r={};D=\'3e\'};t 3F(3g,{25:\'3e\'});3g.3f=O 53 1r.3f{C(q){8L(q);7(6.I.2F(/\\.3e$/i)===2i){6.I+=\'.3e\'}}};E.1P(E.Q,"3q",{1U:h,1X:F});E.1P(1j.Q,"3q",{1U:h,1X:F});E.Q.3q=L(3G=\'\',3A=\'&\'){9 1q=[];1s(26 P 2K 6){1q.11(3G+P+\'=\'+6[P])};8 1q.3T(3A)};1j.Q.3q=L(3G=\'\',3A=\'&\'){9 1q=[];6.B((e,i)=>{1q.11(3G+i+\'=\'+e)});8 1q.3T(3A)};E.1P(E.Q,"23",{1U:h,1X:F});E.1P(1j.Q,"23",{1U:h,1X:F});E.Q.23=L(3E){1s(26 P 2K 6){6[P](3E)}};1j.Q.23=L(3E){6.B(f=>f(3E))};2l=O 2l{C(f){7(!2l.1T){2l.1Y.11(f)}n{f()}}};2l.1Y=[];2l.1T=h;3x=O 3x{4w=h;2S=h;C(1K,q={}){6.1K=1K;E.1Q(6,q)};5K(){7(!6.4w){1k.6S.8M({},"",6.1K)}n{1k.6S.8P({},"",6.1K)};7(6.2S){1G.2S=6.2S}};6Y(I,m){9 2m=\'?\',3y=\'\';7(6.1K.5a(\'?\')>-1){2m=\'&\'};7(m===M){3y=2m+I}n{3y=2m+I+\'=\'+m};6.1K+=3y;8 6}6Z(q){9 2m=\'?\';7(1f.5a(\'?\')>-1){2m=\'&\'};6.1K+=1f+2m+q.3q();8 6}};6L=O 6L{C(){7(!6.3v&&1k.6w.1f.2F(/.*\\?.*/)){6.3v={};1k.6w.1f.4E(/.*\\?/,\'\').2J(\'&\').B(m=>{9 4G=m.2J(\'=\');6.3v[4G[0]]=4G[1]})}n{6.6J=()=>{8 M}}};6J(6D){8 6.3v[6D]}};3d.Q.4L=L(a,b){7(a<b){8 6>=a&&6<=b}n 7(a>b){8 6<=a&&6>=b}n 7(a==b){8 6==a}};O 48{5O=h;1F=\'#8N\';4A=h;6v=h;p={};C(x=0,y=0,19=10,1a=10){6.x=x;6.y=y;6.19=19;6.1a=1a}6M(2n){2n.2z.6p=6.1F;2n.2z.8O(6.x,6.y,6.19,6.1a)}5N(2n){6.6M(2n);6.6C(2n)}6C(2n){8}4z(x,y){9 c=6,2N=(x.4L(c.x,c.x+c.19)&&y.4L(c.y,c.y+c.1a));8 2N}};1k.16=O 16{17 A={G:h,X:h,8Q:F,6I:F,8R:h,8U:h,8s:h,8n:h,82:h,8l:\'I\',7Z:0,2Z:[],33:{}};C(3K){7(1y(3K)==\'R\'){6.N=3K}n{6.N=3B.6N(3K)}}17 X(q,A={}){7(A.2U===M){A.2U=0}n{A.2U++}9 X=t W(\'X.S-6W\'),2k=E.2k(q);7(1j.1A(q)){X.1w.3a(\'S-6W-1D\')}1s(26 P 6X 2k){X.1h(16.G(P,q[P],A))}X.1h(16.6T(A));X.1A=1j.1A(q);X.3P=16.3P;X.7G=L(P){8 1j.7Y(6.J).44((G)=>{8 G.1w.5d(\'S-3D\')&&G.J[1].J[0].m==P})};8 X}17 3P(){9 6A=6.J,R={};6A.B((G)=>{7(G.1w.5d(\'S-3D\')){9 N=16.3L(G);R[N[0]]=N[1]}});7(6.1A){R=E.6E(R)}8 R}17 3L(c){9 2V=c.J[1],3Q=c.J[2],P=2V.J[0].m,u=2V.J[1].1m,m;7(u==\'1D\'||u==\'R\'){m=3Q.J[1];m=m.3P()}n 7(u==\'2N\'){m=!!3d(3Q.J[0].m)}n{m=3Q.J[0];7(u==\'3Z\'){m=3d(m.m)}n{m=m.m}}8[P,m]}17 6T(A={}){9 G=t W(\'G.S-6x-3U\'),1J=t W(\'2c.S-6x-1J\');1J.1m=\'51 3U +\';1J.1b(\'1d\',L(){9 N;7(G.6y){N=16.3L(G.6y);7(G.6z.1A){N[0]++}}n{7(G.6z.1A){N=[\'0\',\'m\']}n{N=[\'6F\',\'m\']}}G.7X(16.G(N[0],N[1]))});G.1h(1J);8 G}17 G(P,Y,A={}){9 u=16.57(Y),G=t W(\'G.S-3D\'),2V=t W(\'2c.S-6B-4V\'),4Y=t W(\'1n[u=2v].S-6B-1n\'),2t=t W(\'2c.S-7W-3U\'),3S=t W(\'2c.S-7V-3U\');2t.39=u;2t.1b(\'1d\',L(){9 2M=16.2M,5c=2M.5a(6.39)+1,1C=2M[(5c>=2M.12)?0:5c],1W=0;7(6.1x==M){6.1x=16.3L(G)[1];6.5e=6.39}1W=6.1x;G.1w.3R(\'S-4Z\'+6.39);G.1w.51(\'S-4Z\'+1C);7(6.5e==\'R\'){7(1C==\'1D\'){1W=E.6E(6.1x)}n 7(1C!=\'R\'){1W=3B.5f(6.1x[E.2k(6.1x)[0]])}}n 7(6.5e==\'1D\'){7(1C==\'R\'){1W=E.1Q({},6.1x)}n 7(1C!=\'1D\'){1W=3B.5f(6.1x[0])}}n{7(1C==\'1D\'){1W=[6.1x]}n 7(1C==\'R\'){1W={6F:6.1x}}}2t.39=1C;2t.1m=1C;9 52=16.4U(1W,A,1C);52.1b(\'1n\',()=>{2g 6.1x},{7U:F})G.J[2].2r(52)});3S.1b(\'1d\',()=>{G.3R()});3S.1m=\'x\';4Y.m=P;2t.1m=u;G.1w.51(\'S-4Z\'+u)2V.1h(4Y,2t);G.1h(3S,2V);G.1h(16.4U(Y,A,u));8 G}17 4U(Y,A={},u=h){9 2P=t W(\'2c.S-4a-4V\');7(u==h){u=16.57(Y)};7(1y(Y)==\'R\'){9 2s=t W(\'1J.S-6U-1J\'),54=t W(\'7T\'),X=16.X(Y,A),2h=t W(\'2c.S-7S-q-I\');7(16.4S(A,\'6I\')===F){X.1w.3a(\'6K\')}n{2s.1w.3a(\'35\')}2s.1b(\'1d\',(e)=>{2s.1w.3a(\'35\');X.1w.3a(\'6K\');7(e.8m==h){8}X.1u(\'.S-4a-4V > .S-6U-1J.35\').B((1J)=>{1J.1d(h)})});54.1m=\'>\';2s.1h(54);9 3u=16.4S(A,u+\'7Q\');L 3z(){2h.1m=6.m};7(3u!==h){X.J.B((c)=>{7(c.1w.5d(\'S-3D\')){c.J[1].J[0].1b(\'1n\',L(){7(6.m==3u){c.J[2].J[0].1b(\'1n\',3z);2h.1m=c.J[2].J[0].m}n{c.J[2].J[0].7I("15",3z,h);2h.1m=(X.1A)?\':1D:\':\':R:\'}});7(c.J[1].J[0].m==3u){c.J[2].J[0].1b(\'1n\',3z);2h.1m=c.J[2].J[0].m}}});7(2h.1m==\'\'){2h.1m=(X.1A)?\':1D:\':\':R:\'}};2s.1h(2h);2P.1h(2s);2P.1h(X)}n 7(u==\'2N\'){9 3c=t W(\'3c.S-4a-1n\');3c.4N="<4b m=\'0\'>h</4b><4b m=\'1\'>F</4b>";3c.J[Y+0].4c(\'7P\',F);2P.1h(3c)}n{9 1n=t W(\'1n[u=\'+u+\'].S-4a-1n\');1n.m=Y;2P.1h(1n)}8 2P}17 57(Y){9 u;7(1y(Y)==\'R\'){7(1j.1A(Y)){u=\'1D\'}n{u=\'R\'}}n{7(1y(Y)==\'3Z\'){u=\'3Z\'}n 7(/^#[0-6Q-f]{3}(?:[0-6Q-f]{3})?$/i.6O(Y)){u=\'1F\'}n 7(1y(Y)==\'7O\'){u=\'2N\'}n{u=\'2v\'}};8 u}17 4S(A,2b){7(A.P&&A.33&&A.33[A.P]&&A.33[A.P][2b]!==M){8 A.33[A.P][2b]}n 7(A.2Z&&A.2Z[A.2U]&&A.2Z[A.2U][2b]!==M){8 A.2Z[A.2U][2b]}7(A[2b]===M){8 16.A[2b]}n{8 A[2b]}};17 2M=[\'2N\',\'2v\',\'3Z\',\'1F\',\'1D\',\'R\']}7N=48;O 6t 53 48{4A=F;6v=F;1V 1M(){8 6.p.1M}1V 1d(){8 6.p.1d}1V 1t(){8 6.p.1t}1V 1O(){8 6.p.1O}1V 1B(){8 6.p.1B}1V 15(){8 6.p.15}};O 1N{35=F;x;y;7M=1;6j=1;C(q={}){E.1Q(6,q)}};7L=6t;O 1l{29;3t=3;p={};5U(I,e){9 p=6.p;7(p[\'1t\']){8}65(I){2x\'1O\':6.29=e;7(p[\'1t\']){2g p[\'1t\']};p[\'1O\']=e;2a;2x\'15\':7(p[\'1B\']){2g p[\'1B\']};p[\'15\']=e;2a;2x\'1B\':7(p[\'15\']){7(2T(p[\'15\'].3r/6.3t)==2T(e.3r/6.3t))p[\'1d\']=e;2g p[\'15\']};p[\'1B\']=e;2a;2x\'1t\':p={};6.29=h;p[\'1t\']=e;2a;64:2a}}6s(){7(6.p[\'15\']){9 1v=6.p[\'15\'];6.p={1B:1v}}n{6.p={}}}};O 7K{K=[];2w=[];6u=7J;5Z=h;1l=t 1l();C(3W,19=h,62=h){7(1y(3W)==\'80\'){6.H=2C(3W)}n{6.H=3W}6.2z=6.H.7R(\'2d\');7(!19){6.19=6.H.19=6.H.6l;6.1a=6.H.1a=6.H.6i}n{6.19=6.H.19=19;6.1a=6.H.1a=62}6.42=F;6.2Q=[];6.4s=()=>{7(6.42){61(6.4s);6.24=1S.24();6.4O=6.24-6.4J;7(6.4O>6.4K){6.4J=6.24-(6.4O%6.4K);6.5Q();7(6.2w.12>6.6u-1){6.2w.81()};6.2w.11(6.24);7(6.5Z){6.6q()}}}};6.4C=L(a,b){8 a.y-b.y||a.x-b.x};6.8c=()=>{8 h};9 5W=[\'1O\',\'15\',\'1B\',\'1t\'];5W.B((4j)=>{6.H.1b(4j,(e)=>{6.1l.5U(4j,e)})})}8k(z=0,x=0,y=0,19=10,1a=10){9 H=t 48(x,y,19,1a);6.5R(H,z);8 H}5R(H,45=0){7(!6.K[45]){6.K[45]=[]}6.K[45].11(H);8 6}5P(){6.2z.8j(0,0,6.19,6.1a)}8i(){6.42=h}8h(2A=60){6.4K=6g/2A;6.4J=1S.24();6.4s()}5Q(){6.5P();6.5V();6.K.B((2I,22)=>{2I.66(6.4C);6.K[22]=2I;2I.B((c,5M)=>{7(c.5O==h){c.5N(6)}n{6.K[22].4v(5M,1)}})})}67(x,y,44=h){9 K=[];6.K.B((2I,22)=>{K[22]=[];2I.B((c)=>{7(c.4z(x,y)){7(44){7(c[44]){K[22].11(c)}}n{K[22].11(c)}}});K[22].66(6.4C)});8 K}5V(){9 p=6.1l.p,x,y;7(6.1l.29){p[\'1M\']=6.1l.29};7(6.1l.29){9 4u=6.6m(6.1l.29.3r,6.1l.29.5b);x=4u[0];y=4u[1]};6.6r();7(p[\'1t\']||x===M){9 1L=6.2Q,3V=[\'1M\',\'15\',];1L.B((c,i)=>{7(c.p[\'1M\']){c.p[\'1t\']=t 1N({})};3V.B((1v)=>{7(c.p[1v]){2g c.p[1v]}})})}n 7(x!=M){9 K=6.67(x,y,\'4A\');7(p[\'1O\']){9 1L=6.2Q;1L.B((c)=>{7(c.p[\'1M\']&&!c.4z(x,y)){2g c.p[\'1M\'];c.p[\'1t\']=t 1N({})}})};1s(9 i=K.12-1;i>=0;i--){9 49=K[i];7(49)1s(9 j=49.12-1;j>=0;j--){9 H=49[j];7(p[\'1d\']){H.p[\'1d\']=t 1N({x:x,y:y})};7(p[\'1B\']){7(H.p[\'15\']){7(H.p[\'15\'].6j<3&&(2T(H.p[\'15\'].x/6.1l.3t)==2T(x/6.1l.3t))){H.p[\'1d\']=t 1N({x:x,y:y})};2g H.p[\'15\']};H.p[\'1B\']=t 1N({x:x,y:y})};7(p[\'15\']){H.p[\'15\']=t 1N({x:x,y:y})};7(p[\'1O\']){H.p[\'1O\']=t 1N({x:x,y:y});H.p[\'1M\']=t 1N()}n 7(p[\'1M\']){H.p[\'1M\']=t 1N()};6.2Q.11(H)}}}6.1l.6s()}6r(){9 1L=6.2Q,3V=[\'1d\',\'1O\',\'1B\',\'1t\'],12=1L.12;1s(9 i=0;i<12;i++){9 c=1L[i];3V.B((1v)=>{7(c.p[1v]){2g c.p[1v]}});7(E.2k(c.p).12==0){1L.4v(i,1);i--;12=1L.12}};6.2Q=1L}6q(){6.2z.8g=\'8f 8e\';6.2z.6p=\'6o\';6.2z.8d(6.2A()+\' 2A\',6.19-55,14)}6m(3r,5b){9 x=3X.6k(3r/6.H.6l*6.19),y=3X.6k(5b/6.H.6i*6.1a);8[x,y]}2A(){9 l=6.2w.12;7(l<5){8 30}9 46=6.2w[l-1]-6.2w[0],2A=2T(6g/(46/l));8 2A}};2f=O 2f{17 1Y={};17 2O={};C(18,1i){9 1Z=2f;7(1y(1Z.1Y[18])!=\'R\'){1Z.1Y[18]=[];7(1Z.2O[18]){1Z.2O[18].B((c)=>{1i(c)})}}1Z.1Y[18].11(1i);8 F}};t 2f(\'8b\',(c)=>{9 3w=t 58(c.1m),6e=c.20(\'u\');6c=1G.83(3w.4P(6e,6d));c.8a(6c);c.3R()});1G.1b("89",()=>{88.87(\'86 85 \'+1k.4t.6b+\' \'+1k.4t.6a);2l.1Y.23();2C(\'84\').4x();2l.1T=F});', 62, 553, '||||||this|if|return|let|||el|||||false|||||value|else|node|events|obj|||new|type||||||setting|forEach|constructor|selector|Object|true|li|element|name|childNodes|elements|function|undefined|data|class|key|prototype|object|ax||buffer|loadData|axNode|ul|val|||push|length|dir||mousedown|axJson|static|id|width|height|addEventListener|attributes|click|attr|href|style|append|func|Array|window|eventStorage|innerText|input|cords|newNode|arr|axLoader|for|mouseleave|axQSA|event|classList|oldJsonValue|typeof|url|isArray|mouseup|nextType|array|tag|color|document|thisDate|axComponentLoader|button|urlPath|elementsArr|hover|axCanvasElementEvent|mousemove|defineProperty|assign|str|Date|load|enumerable|get|newValue|writable|functions|mf|getAttribute|loader|i1|executeFunctions|now|skeletonTag|const|axLazy|loading|mousePosition|break|prop|div||xhr|axModularFunction|delete|display_name|null|options|keys|axFunction|delimeter|canvas|sel|className|tags2|replaceWith|show_button|key_element_type|classes|text|fpsCounter|case|content|ctx|fps|method|axQS|background|prepareToString|match|tags|leadUpFunctions|zGroups|split|in|form|valueTypes|bool|waitingElements|val_element|eventsElements|axVal|title|parseInt|depth|key_element|src|axFlashTimer|setTimeout|depth_set|||Year|key_set|cls|active|AX_LOADER_ATTR_EL|appendFunction|axModalClass|jsonType|toggle|newMain|select|Number|svg|bufferCel|axLoaderSVG|baseValue|getValue|axFlashVal|leadUpFunction|lazyLoad|axFlashStyle|toFormData|baseDIR|reload|axSplit|layerX|contentBuffer|clickTrigger|nameKey|params|date|axURL|added|replaceName|separator|JSON|class1|json__item|arg|baseAxLoader|prefix|reIndexArr|slice|dataKeys|jsonOrObj|getJsonDataFromLi|class2|class3|nodeArray|getJsonObj|value_element|remove|dell|join|item|killEvent|selectorOrElement|Math|axFlashType|number|top|onvertToNode|repeat|updatedCookie|filter|zIndex|time|AX_LOADER_ATTR_SVG|axCanvasElement|zGroup|json__value|option|setAttribute|running|mod|setSelector|var|lazyDooble|InfinityLoad|eventName|getNode|GET|preparedSelectorsBuffer|AX_LOADER_ATTR_WAITING|lazy|requestHeaders|header|requestParam|render|ax_lib_info|coords|splice|save_history|componentLoader|axEvents|isThereCoord|reactive|optimizedResize|sortFuncElements|optionValue|replace|max|tmp|responseType|classReg|then|fpsInterval|axRange|optionKey|innerHTML|elapsed|getPrepareDate|getPreparedValue|cD|getSetting|axRequest|liValue|container|matches|Hours|key_element_key|json__||add|newValueElement|extends|show_button_i||expires|takeType|axDate|xhrResponseData|indexOf|layerY|idType|contains|oldJsonValueType|stringify|attributeReg|Minutes|getDataObj|Month|selectorsBuffer|axCookie|Day|getOwnPropertyNames|outerHTML|throttle|waitingLoader|progress|getBoundingClientRect|execute|rewrite|zero|encodeURIComponent|clearBuffer|rememberValue|innerHeight|request|left|nodeName|nodeValue|cookie|FormData|concat|100|axModalLoc|axNodeConection|update|querySelector|i2|workFunctions|kill|clear|print|addElement|axFlash|tiktak12|save|eventEngine|listenerEvents|querySelectorAll|exceptions|showFPS||requestAnimationFrame|hight|main|default|switch|sort|searchElementsByCoords|axDataIdElements|axClass|last_update|version|datePrint|differenceDate|dateType|replaceAll|1000|createElement|clientHeight|stack|round|clientWidth|normalizeLayerCoordinates|tagName|green|fillStyle|printFPS|resetEvents|reset|axCanvasElementSmart|fpsCalculationLength|eventStopper|location|json__create|previousElementSibling|parentElement|childs|json__key|updateFunction|param|values|key_1|dataTemplate|ms|hidden_object|getParam|hidden|axGet|drawFunction|parse|test|axAttribute|9a|ids|history|liCreate|json__show|saveLoadData|json|of|addGetParam|addGetParamObj|done|TEXTAREA|setRequestHeader|map|send|getFullYear|open|2022|04|min|AX_LOADER_ATTR_SPA|awaiting|onload|domLoader|INPUT|password|getMonth|getSeconds|removeAll|preventDefault|spa|Element|loaded|total|do|response|onprogress|includes|while|getDate|getTime|post|xhrTemplate|clearSavedData|XMLHttpRequest|getPHPServerDate|updateAll|getMinutes|160|IMG|getHours|sleep|searchKey|RegExp|removeEventListener|90|axCanvas|axCES|lifeTime|axCE|boolean|selected|_display_name_key|getContext|json__display|span|once|json__dell|json__type|before|from|array_display_name_key|string|shift|edit_values|createTextNode|body|JS|AxNikita|log|console|DOMContentLoaded|after|ax_date|getCursorCoords|fillText|consolas|14px|font|start|stop|clearRect|newElement|object_display_name_key|isTrusted|edit_keys|CustomEvent|String|200|150|hidden_type|wheel|advance|resize|dispatchEvent|axComponentLoaderExceptions|age|setCookie|deleteCookie|toUTCString|instanceof|path|setValue|decodeURIComponent|trim|svgLoader|firstChild|removeAllLeadUpFunctions|overwriteValue|super|replaceState|000000|fillRect|pushState|all_tools|hidden_dell|addLeadUpFunction|idCounter|hidden_add'.split('|'), 0, {}))
+const
+	AX_LOADER_ATTR_SVG = window.AX_LOADER_ATTR_SVG = 'svgLoader',
+	AX_LOADER_ATTR_EL = window.AX_LOADER_ATTR_EL = 'domLoader',
+	AX_LOADER_ATTR_WAITING = window.AX_LOADER_ATTR_WAITING = 'awaiting',
+	AX_LOADER_ATTR_SPA = window.AX_LOADER_ATTR_SPA = 'min';
+
+window.ax_lib_info = {
+	version: "2.31",
+	last_update: "30.04.2022"
+};
+
+Object.defineProperty(Object.prototype, "reIndexArr", {
+	enumerable: false,
+	writable: true
+});
+
+Object.defineProperty(Array.prototype, "reIndexArr", {
+	enumerable: false,
+	writable: true
+});
+
+Object.prototype.reIndexArr = function () {
+	let arr = [];
+	for (const k in obj) {
+		arr.push(this[k]);
+	};
+	return arr;
+};
+
+Array.prototype.reIndexArr = function () {
+	let arr = [];
+	this.forEach(e => {
+		arr.push(e);
+	});
+	return arr;
+};
+
+function axQS(s) {
+	return document.querySelector(s);
+};
+
+function axQSA(s) {
+	return document.querySelectorAll(s);
+};
+
+axNode = class axNode {
+	constructor(tag) {
+		let
+			node;
+
+		if (tag.match(/[\[\.]/)) {
+
+			let
+				classes = [],
+				attributes = [],
+
+				classReg = /\.[\w-]+/g,
+				attributeReg = /\[.+?]/g;
+
+			classes = tag.match(classReg);
+			tag = tag.replaceAll(classReg, '');
+
+			attributes = tag.match(attributeReg);
+			tag = tag.replaceAll(attributeReg, '');
+
+			node = document.createElement(tag);
+
+			if (classes && classes.length > 0) {
+				classes = classes.map(cls => cls.slice(1));
+				node.axClass(classes.join(' '));
+			};
+
+			if (attributes && attributes.length > 0) {
+				attributes.forEach(attr => {
+					attr = attr.slice(1, -1);
+					attr = attr.split('=');
+					if (attr[1] === undefined) {
+						attr[1] = '';
+					};
+					node.setAttribute(attr[0], attr[1]);
+				});
+			}
+		} else {
+			node = document.createElement(tag)
+		}
+
+		return node;
+	};
+	axClass(cls = null) {
+		let
+			d = this;
+		if (typeof (d) != "object" || d.tagName == undefined)
+			return false;
+		if (cls !== null)
+			d.className = cls;
+		else
+			return d.className;
+		return d;
+	};
+	axVal(val = null) {
+		switch (this.tagName) {
+			case 'TEXTAREA':
+			case 'INPUT':
+				this.baseValue = 'value';
+				break;
+			case 'IMG':
+				this.baseValue = 'src';
+				break;
+			default:
+				this.baseValue = 'innerHTML';
+				break;
+		};
+		this.axVal = function (val = null) {
+			if (val !== null) {
+				this[this.baseValue] = val;
+				return this;
+			} else {
+				return this[this.baseValue];
+			};
+		};
+		return this.axVal(val);
+	};
+	axFlash(style = false, value = false, time = 160) {
+		let
+			node = this;
+		if (style == 'tiktak12') {
+			node.axFlashTimer--;
+		} else if (node.axFlashTimer > 0) {
+			node.axFlashTimer = 10;
+			return;
+		} else {
+			node.axFlashStyle = [];
+			node.axFlashType = '';
+			node.axFlashVal = '';
+			node.axFlashTimer = 10;
+			if (!style) {
+				style = "green";
+				node.axFlashStyle = [
+					['background-color', node.style['background-color']]
+				];
+				node.style['background-color'] = style;
+			} else {
+				style = style.split('&&');
+				style.forEach(e => {
+					e = e.split('=');
+					if (e.length == 1) {
+						node.axFlashStyle.push(['background-color', node.style['background-color']]);
+						node.style['background-color'] = e[0];
+					} else {
+						node.axFlashStyle.push([e[0], node.style[e[0]]]);
+						node.style[e[0]] = e[1];
+					};
+				});
+			};
+			if (value !== false) {
+				node.axFlashVal = node.axVal();
+				if (node.axFlashVal === false) {
+					node.axFlashVal = '';
+				};
+				node.axVal(value);
+				if (node.type == 'password') {
+					node.axFlashType = node.type;
+					node.type = 'text';
+				};
+			};
+		};
+		if (node.axFlashTimer <= 0) {
+			node.axFlashStyle.forEach(e => {
+				node.style[e[0]] = e[1];
+			});
+			if (node.axFlashType != '') {
+				node.type = node.axFlashType;
+			};
+			if (value != '') {
+				node.axVal(node.axFlashVal);
+			}
+			node.axFlashTimer = 0;
+		} else {
+			setTimeout(() => {
+				node.axFlash('tiktak12');
+			}, time);
+		};
+	};
+	axAttribute(name, value = undefined) {
+		if (value === undefined) {
+			return this.getAttribute(name);
+		} else {
+			this.setAttribute(name, value);
+			return this;
+		};
+	};
+	axQS(s) {
+		return this.querySelector(s);
+	};
+	axQSA(s) {
+		return this.querySelectorAll(s);
+	};
+	componentLoader(exceptions = []) {
+		let
+			attributes = Object.keys(axComponentLoader.attributes),
+			selector = [];
+
+		attributes.forEach((v) => {
+			if (!exceptions.includes(v)) {
+				selector.push('[' + v + ']');
+			}
+		});
+
+		this.axQSA(
+			selector.join(',')
+		).forEach((el) => {
+			attributes.forEach((attr) => {
+				if (el.getAttribute(attr) !== null) {
+					axComponentLoader.attributes[attr].executeFunctions(el);
+				};
+			});
+		});
+
+		return this;
+	};
+};
+
+axComponentLoader = class axComponentLoader {
+	static attributes = {};
+	static appendFunction(attr, func) {
+		let
+			attributes = axComponentLoader.attributes;
+		if (attributes[attr] === undefined) {
+			attributes[attr] = [func];
+		} else {
+			attributes[attr].push(func);
+		}
+	}
+};
+
+axComponentLoader.appendFunction(AX_LOADER_ATTR_SVG, (el) => {
+	let
+		node = (new axLoaderSVG(el.getAttribute(AX_LOADER_ATTR_SVG))).content;
+	el.replaceWith(node);
+});
+
+axComponentLoader.appendFunction(AX_LOADER_ATTR_EL, (el) => {
+	let
+		node = (new axLoader(el.getAttribute(AX_LOADER_ATTR_EL))).content;
+	el.replaceWith(node);
+});
+
+
+axComponentLoader.appendFunction('spa', (el) => {
+	el.addEventListener('click', function (e) {
+		e.preventDefault();
+		let
+			href = this.getAttribute('href');
+
+		if (href == '#') {
+			return false;
+		};
+
+		let
+			url = new axURL(href, { save_history: true });
+
+		url.update();
+
+		url.addGetParam(AX_LOADER_ATTR_EL);
+
+		let
+			newMain = new axLoader(url.urlPath);
+
+		newMain.setSelector('title');
+		axQS('title').replaceWith(newMain.content);
+		newMain.setSelector('main');
+		axQS('main').replaceWith(newMain.content);
+	});
+});
+
+axDataIdElements = class axDataIdElements {
+	constructor(id) {
+		this.elements = axQSA('[data-id~="' + id + '"]');
+	}
+	updateAll(func) {
+		this.elements.forEach((el) => {
+			func(el);
+		});
+	}
+	removeAll() {
+		this.elements.forEach((el) => {
+			el.remove();
+		});
+	}
+};
+
+axComponentLoader.appendFunction('data-id', (el) => {
+	let
+		mf = axModularFunction,
+		ids = el.axAttribute('data-id').split(' ');
+
+	ids.forEach(id => {
+		if (typeof (mf.functions[id]) == 'object') {
+			mf.functions[id].executeFunctions(el);
+		} else {
+			if (!axModularFunction.waitingElements[id]) {
+				axModularFunction.waitingElements[id] = [];
+			}
+			axModularFunction.waitingElements[id].push(el);
+		}
+	});
+});
+
+(() => {
+	let
+		obj = Object.getOwnPropertyNames(axNode.prototype);
+	obj.forEach(method => {
+		if (method !== 'constructor')
+			Element.prototype[method] = axNode.prototype[method];
+	})
+})();
+
+function sleep(ms) {
+	const d = Date.now();
+	let cD = null;
+	do {
+		cD = Date.now();
+	} while (cD - d < ms);
+};
+
+axRequest = class axRequest {
+	baseDIR = ''; 					// базовый префикс для url
+	type = 'auto'; 					// тип запроса auto/post/get
+	responseType = 'text'; 	// responseType
+	dataTemplate = {}; 			// Базовые параметры для dataTemplate
+	saveLoadData = false; 	// Кеширование ответов
+	requestHeaders = {}; 		// Заголовки
+	static loadData = {};		// Ячейка хранения кеша
+
+	// dir - куда отправляется запрос
+	// obj - передаем настройки
+	constructor(dir, obj = {}) {
+		this.dir = dir;
+		Object.assign(this, obj);
+		return true;
+	};
+
+	// удаояем кеш запроса
+	clearSavedData() {
+		this.constructor.loadData[this.baseDIR + this.dir] = {};
+	};
+
+	execute(data, func) {
+		let
+			xhr = new XMLHttpRequest(),
+			dataKeys,
+			href = this.baseDIR + this.dir,
+			loadData,
+			type = this.type;
+
+		if (typeof (data) == 'object') {
+			data = Object.assign(data, this.dataTemplate);
+
+			if (Object.keys(data).length == 0) {
+				type = "GET";
+			} else {
+				if (type == "GET") {
+					let
+						url = new axURL(href);
+					url.addGetParamObj(data);
+					href = url.urlPath;
+				} else {
+					data = data.toFormData();
+				}
+			}
+		} else {
+			type = "GET";
+		};
+
+		xhr.open(type, href);
+
+		for (const header in this.requestHeaders) {
+			xhr.setRequestHeader(header, this.requestHeaders[header]);
+		}
+
+		if (this.saveLoadData) {
+			dataKeys = Object.keys({});
+			if (!this.constructor.loadData[href]) {
+				this.constructor.loadData[href] = {};
+			};
+			loadData = this.constructor.loadData[href];
+
+			if (dataKeys.done) {
+				if (loadData.value) {
+					func(loadData.value);
+					return true;
+				}
+			} else {
+				for (var key of dataKeys) {
+					let
+						value = data.get(key);
+					if (!loadData[key]) {
+						loadData[key] = {};
+					}
+					loadData = loadData[key];
+					if (typeof (value) === 'object') {
+						value = JSON.stringify(value);
+					}
+					if (!loadData[value]) {
+						loadData[value] = {};
+					}
+
+					loadData = loadData[value];
+				}
+				if (loadData.value) {
+					func(loadData.value);
+					return true;
+				}
+			}
+		}
+
+		xhr.send(data);
+
+		xhr.responseType = this.responseType;
+
+		xhr.onload = () => {
+			let
+				xhrResponseData = xhr.response;
+			if (loadData) {
+				loadData.value = xhrResponseData;
+			}
+			func(xhrResponseData);
+		};
+
+		if (this.progress != undefined)
+			xhr.onprogress = function (event) {
+				let load = event.loaded / event.total;
+				this.progress(load);
+			};
+
+		return true;
+	};
+};
+
+Object.defineProperty(Object.prototype, "toFormData", {
+	enumerable: false,
+	writable: true
+});
+
+Object.defineProperty(Array.prototype, "toFormData", {
+	enumerable: false,
+	writable: true
+});
+
+Object.prototype.toFormData = function () {
+	let form = new FormData();
+	for (const k in this) {
+		form.append(k, this[k])
+	};
+	return form
+};
+
+Array.prototype.toFormData = function () {
+
+	let form = new FormData();
+	this.forEach((v, k) => {
+		form.append(k, v);
+	});
+	return form;
+};
+
+Object.defineProperty(Number.prototype, "prepareToString", {
+	enumerable: false,
+	writable: true
+});
+
+Number.prototype.prepareToString = function (length = 2, zero = '0') {
+	return (zero.repeat(length - 1) + this).slice(-length);
+};
+
+axDate = class axDate {
+	constructor(str = false) {
+		this.date = str;
+	}
+	getSeconds() {
+		return parseInt(new Date().getTime() / z)
+	}
+	getDataObj(mod = 0) {
+		let
+			str = this.date,
+			thisDate;
+		if (str) {
+			str = str.replace(/\s+/g, 'T') + "Z";
+
+			str = Date.parse(str) + mod;
+
+			thisDate = new Date(str);
+		} else {
+			thisDate = new Date();
+		};
+		return thisDate;
+	}
+	getPHPServerDate() {
+		return this.getPrepareDate(2, -differenceDate);
+	}
+	getPrepareDate(type = 1, mod = 0) {
+		let
+			thisDate = this.getDataObj(mod);
+
+		let
+			Minutes = thisDate.getMinutes().prepareToString(),
+			Hours = thisDate.getHours().prepareToString(),
+			Day = thisDate.getDate().prepareToString(),
+			Month = (thisDate.getMonth() + 1).prepareToString(),
+			Year = " " + thisDate.getFullYear();
+		Year = Year[3] + Year[4];
+		if (type == 1) return Hours + ":" + Minutes;
+		if (type == 2) return Hours + ":" + Minutes + " " + Day + "." + Month + "." + Year;
+	};
+};
+
+axGlossary = class axGlossary {
+	static lib;
+	static localStorageKey = 'glossary_';
+	static glossariesPath = 'resources/glossaries/glossary_';
+
+	static get(type, key, obj = false) {
+		let
+			string = this.lib[type][key];
+		if (!string) {
+			return key;
+		}
+
+		if (obj) {
+			let
+				r = new RegExp('%(' + Object.keys(obj).join('|') + ')%', 'gum'),
+				replacer = (match, p1) => {
+					return obj[p1];
+				};
+
+			string = string.replace(r, replacer);
+		}
+		return string;
+	}
+
+	static load() {
+		let
+			data = localStorage[this.localStorageKey + axCookie.getValue('lang')];
+
+		if (!data) {
+			this.pullFromApi();
+		} else {
+			let
+				dataObj = JSON.parse(data);
+
+			if (dataObj.time > Date.now()) {
+				this.lib = dataObj.data;
+			} else {
+				this.pullFromApi();
+			}
+		}
+	}
+
+	static pullFromApi() {
+		if (!axCookie.getValue('lang')) {
+			return;
+		}
+		let
+			api = new axRequest(this.glossariesPath + axCookie.getValue('lang') + '.json');
+
+		api.execute({}, (r) => {
+			let data;
+			try {
+				data = {
+					time: Date.now() + 1440000,
+					data: JSON.parse(r)
+				};
+			} catch (error) {
+				return;
+			}
+
+			localStorage.setItem(this.localStorageKey + axCookie.getValue('lang'), JSON.stringify(data));
+			this.lib = data.data;
+		});
+	}
+};
+
+axNotification = class axNotification {
+	static list = [];
+	static glossary_class = axGlossary;
+
+	static box(html) {
+		let
+			box = new axNode('div');
+
+		box.innerHTML = html;
+		box.classList.add('box-1', 'notification');
+		box.run = this.run;
+		box.runtimer = this.runtimer;
+		box.noti_class = this;
+
+		return box;
+	}
+
+	static error(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'message');
+		}
+		let
+			box = this.box(html);
+
+		box.classList.add('error');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static glossary() {
+		return this.glossary_class;
+	}
+
+	static message(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'message');
+		}
+
+		let
+			box = this.box(html);
+
+		box.classList.add('message');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static success(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'success');
+		}
+
+		let
+			box = this.box(html);
+
+		box.classList.add('success');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static warning(html = false, classname = false) {
+		if (html === false) {
+			html = this.glossary().get('main', 'warning');
+		}
+
+		let
+			box = this.box(html);
+
+		box.classList.add('warning');
+		if (classname !== false) {
+			box.classList.add(classname);
+		}
+
+		box.run();
+	}
+
+	static append(el) {
+		axQS('body').append(el);
+		let
+			height = el.clientHeight;
+		this.list.forEach(element => {
+			let
+				bottom = parseInt(element.style['bottom']) + height + 10;
+
+			element.style['bottom'] = bottom + 'px';
+		});
+		this.list.push(el);
+	}
+
+	static remove(el) {
+		let
+			index = this.list.indexOf(el);
+		this.list.splice(index, 1);
+		el.remove();
+	}
+
+	static run() {
+		let
+			bottom = parseInt(this.style['bottom']);
+
+		if (isNaN(bottom)) {
+			this.style['opacity'] = 1;
+			this.style['bottom'] = 10 + 'px';
+			this.noti_class.append(this);
+			window.addEventListener('mousemove', () => {
+				setTimeout(() => { this.run() }, 4000);
+			}, { once: true });
+		} else if (this.style['opacity'] < 0.01) {
+			this.noti_class.remove(this);
+		} else {
+			bottom += 10;
+			this.style['bottom'] = bottom + 'px';
+			this.style['opacity'] = this.style['opacity'] - (0.11 - (this.style['opacity'] / 15));
+			setTimeout(() => { this.run() }, 30);
+		}
+	}
+};
+
+axNodeConection = class axNodeConection {
+	constructor(class1, class2, class3 = false, type = false) {
+		let
+			tags = [],
+			tags2 = [];
+		if (!class3) {
+			class3 = 'active';
+		};
+		if (Array.isArray(class1)) class1.forEach(e => {
+			tags = tags.concat(axQSA(e));
+		});
+		else tags = axQSA(class1);
+		if (Array.isArray(class2)) class2.forEach(e => {
+			tags2 = tags2.concat(axQSA(e));
+		});
+		else tags2 = axQSA(class2);
+		if (tags == undefined || tags2 == undefined) return false;
+
+		function axModalLoc() {
+			tags2.forEach(e => {
+				if (e.className == e.axModalClass) {
+					e.className += ' ' + class3;
+					if (type) document.addEventListener('click', () => {
+						e.className = e.axModalClass;
+					}, true);
+				} else {
+					e.className = e.axModalClass;
+				};
+			});
+		};
+
+		tags2.forEach(e => {
+			if (e.axModalClass == undefined) {
+				e.axModalClass = e.className;
+			};
+		});
+
+		tags.forEach(e => {
+			e.addEventListener('click', axModalLoc);
+		});
+	};
+};
+
+axCookie = class axCookie {
+	static getValue(name) {
+		let matches = document.cookie.match(new RegExp("(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"));
+		return matches ? decodeURIComponent(matches[1]) : undefined;
+	};
+	static setValue(name, value, options = {}) {
+		options = {
+			path: '/',
+			...options
+		};
+		if (options.expires instanceof Date) {
+			options.expires = options.expires.toUTCString();
+		};
+		let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+		for (let optionKey in options) {
+			updatedCookie += "; " + optionKey;
+			let optionValue = options[optionKey];
+			if (optionValue !== true) {
+				updatedCookie += "=" + optionValue;
+			};
+		};
+		document.cookie = updatedCookie;
+	};
+	static deleteCookie(name) {
+		setCookie(name, "", {
+			'max-age': -1
+		});
+	};
+};
+
+axEvents = class axEvents {
+	constructor() {
+		let
+			obj = Object.getOwnPropertyNames(this);
+		obj.forEach(method => {
+			if (method !== 'constructor')
+				this[method]();
+		})
+	};
+	optimizedResize() {
+		var throttle = function (type, name, obj) {
+			obj = obj || window;
+			var running = false;
+			var func = function () {
+				if (running) {
+					return;
+				}
+				running = true;
+				requestAnimationFrame(function () {
+					obj.dispatchEvent(new CustomEvent(name));
+					running = false;
+				})
+			};
+			obj.addEventListener(type, func);
+		};
+		throttle("resize", "optimizedResize");
+	};
+};
+
+new axEvents;
+
+axLazy = class axLazy {
+	advance = 50;
+	elements = [];
+	constructor(selector) {
+		axQSA(selector + '[lazy-src]').forEach(e => {
+			let cords = e.getBoundingClientRect();
+			if (Math.max(cords.left, cords.top) != 0 && cords.top - cords.height < window.innerHeight) {
+				e.src = e.getAttribute('lazy-src');
+			} else {
+				if (axLazy.elements.length != 0) {
+					axLazy.elements.push(e);
+					this.InfinityLoad();
+					window.addEventListener('click', this.lazyDooble);
+					window.addEventListener('optimizedResize', this.lazyDooble);
+					window.addEventListener('wheel', this.lazyDooble);
+				} else {
+					axLazy.elements.push(e);
+				};
+			};
+		});
+	};
+	lazyLoad() {
+		for (let i = 0; i < axLazy.elements.length; i++) {
+			let e = axLazy.elements[i],
+				cords = e.getBoundingClientRect();
+			if (Math.max(cords.left, cords.top) != 0 && cords.top - cords.height + ((cords.height < 100) ? cords.height : 100) < window.innerHeight) {
+				e.src = e.getAttribute('lazy-src');
+				axLazy.elements.splice(i, 1);
+				i--;
+			};
+		};
+	};
+	lazyDooble() {
+		this.lazyLoad();
+		setTimeout(this.lazyLoad, 50);
+		setTimeout(this.lazyLoad, 150);
+	};
+	InfinityLoad() {
+		this.lazyLoad();
+		setTimeout(this.InfinityLoad, 200);
+	};
+};
+
+String.prototype.сonvertToNode = function (sel = false, setting = {}) {
+	let
+		el = new axNode('div');
+	el.innerHTML = this.trim();
+
+	if (setting.axComponentLoader !== false) {
+		el.componentLoader(setting.axComponentLoaderExceptions);
+	}
+
+	if (sel) {
+		return el.axQSA(sel);
+	} else {
+		return [el.firstChild];
+	};
+};
+
+baseAxLoader = class baseAxLoader {
+	baseDIR = '';
+	contentBuffer = {};
+	idCounter = 0;
+	skeletonTag = 'div';
+	constructor(loader, obj = {}) {
+		Object.assign(this, obj);
+		Object.assign(loader, this);
+		return obj;
+	};
+};
+
+axLoader = class axLoader {
+	selector = false;
+	leadUpFunctions = [];
+	leadUpFunction(node) {
+		this.leadUpFunctions.executeFunctions(node);
+		return node;
+	};
+	addLeadUpFunction(f) {
+		this.leadUpFunctions.push(f);
+		return this;
+	};
+	removeAllLeadUpFunctions() {
+		this.leadUpFunctions = [];
+	};
+	constructor(name, obj = {}) {
+		Object.assign(this, obj);
+		this.name = name;
+		this.dir = (obj.dir === undefined || obj.dir === false) ? this.constructor.baseDIR : obj.dir;
+		if (obj.selector !== undefined) {
+			this.setSelector(obj.selector);
+		};
+		this.skeletonTag = this.constructor.skeletonTag;
+		return this;
+	};
+	get content() {
+		let
+			constructor = this.constructor,
+			buffer = constructor.contentBuffer;
+		if (!buffer[this.dir]) {
+			buffer[this.dir] = {};
+			buffer[this.dir][this.name] = new constructor.bufferCel(this);
+		} else if (!buffer[this.dir][this.name]) {
+			buffer[this.dir][this.name] = new constructor.bufferCel(this);
+		};
+
+		let
+			node = buffer[this.dir][this.name].getPreparedValue(this);
+		node.reload = this.reload;
+		node.axLoader = this;
+		return node;
+	};
+	reload() {
+		this.replaceWith(this.axLoader.content);
+	};
+	setSelector(sel = false) {
+		this.selector = sel;
+		if (/^[a-z]+$/.test(sel)) {
+			this.skeletonTag = sel;
+		} else {
+			this.skeletonTag = this.constructor.skeletonTag;
+		};
+	};
+	rewrite() {
+		if (!this.constructor.contentBuffer[this.dir]) {
+			this.constructor.contentBuffer[this.dir] = {};
+		};
+		this.constructor.contentBuffer[this.dir][this.name] = undefined;
+		return this.content;
+	};
+};
+
+new baseAxLoader(axLoader);
+
+selectorsBuffer = class selectorsBuffer {
+	value = false;
+	buffer = {};
+	getValue(obj, selector) {
+		if (this.buffer[selector] == undefined || this.buffer[selector].value == undefined) {
+			this.rememberValue(obj, selector);
+			return obj.value.сonvertToNode(selector)[0];
+		} else {
+			return this.buffer[selector].value.сonvertToNode()[0];
+		};
+	};
+	rememberValue(obj, selector) {
+		if (this.buffer[selector] == undefined || !this.buffer[selector].load) {
+			let
+				node = obj.value.сonvertToNode(selector, { axComponentLoader: false })[0];
+
+			this.buffer[selector] = {};
+			this.buffer[selector].load = false;
+			if (node.nodeName == '#text') {
+				this.buffer[selector].value = node.nodeValue;
+			} else {
+				this.buffer[selector].value = node.outerHTML;
+			}
+
+			//this.waitingLoader(node, selector);
+		};
+	};
+	clearBuffer() {
+		this.buffer = {};
+	};
+	waitingLoader(node, selector) {
+		if (node.nodeName == '#text') {
+			this.buffer[selector].value = node.nodeValue;
+			this.buffer[selector].load = false;
+		} else if (node.axQS('svg[' + AX_LOADER_ATTR_SVG + '], [' + AX_LOADER_ATTR_EL + '], [' + AX_LOADER_ATTR_WAITING + ']') == undefined) {
+			this.buffer[selector].value = node.outerHTML;
+			this.buffer[selector].load = false;
+		} else {
+			setTimeout(() => {
+				this.waitingLoader(node, selector);
+			}, 50);
+		}
+	};
+};
+
+axLoader.bufferCel = class {
+	loading = false;
+	value = false;
+	nodeArray = [];
+	preparedSelectorsBuffer = new selectorsBuffer;
+	requestParam = {};
+	constructor(obj) {
+		Object.assign(this, obj);
+	};
+	overwriteValue(obj) {
+		this.value = false;
+		this.loading = false;
+		return this.getPreparedValue(obj);
+	};
+	get url() {
+		return this.dir + this.name;
+	};
+	getPreparedValue(obj) {
+		if (this.value === false && this.loading === false) {
+			this.loading = true;
+
+			let
+				url = this.url,
+				request = new axRequest(url, this.requestParam);
+
+			request.execute({}, (r) => {
+				if (this.loading === true) {
+					this.preparedSelectorsBuffer.clearBuffer();
+					this.value = r;
+					this.nodeArray.forEach(el => {
+						let
+							newNode = el.loader.leadUpFunction(this.getNode(el.loader.selector));
+
+						newNode.reload = el.reload;
+						newNode.axLoader = el.axLoader;
+
+						el.replaceWith(newNode);
+					});
+					this.nodeArray = [];
+					this.loading = false;
+				};
+			});
+		};
+		return this.getValue(obj);
+	};
+	rewrite() {
+		this.value = false;
+		this.loading = false;
+	};
+	getValue(obj) {
+		if (this.loading) {
+			let
+				newNode = new axNode(obj.skeletonTag);
+			newNode.loader = {};
+			newNode.loader.leadUpFunctions = obj.leadUpFunctions.slice();
+			newNode.loader.leadUpFunction = obj.leadUpFunction;
+			newNode.loader.selector = obj.selector;
+			newNode.setAttribute(AX_LOADER_ATTR_WAITING, '');
+
+			this.nodeArray.push(newNode);
+			return newNode;
+		} else {
+			return obj.leadUpFunction(this.getNode(obj.selector));
+		};
+	};
+	getNode(selector) {
+		return this.preparedSelectorsBuffer.getValue(this, selector);
+	};
+};
+
+axLoaderSVG = class axLoaderSVG extends axLoader {
+	requestParam = {};
+	selector = 'svg';
+};
+
+new baseAxLoader(axLoaderSVG, {
+	skeletonTag: 'svg'
+});
+
+axLoaderSVG.bufferCel = class extends axLoader.bufferCel {
+	constructor(obj) {
+		super(obj);
+		if (this.name.match(/\.svg$/i) === null) {
+			this.name += '.svg';
+		};
+	};
+};
+
+Object.defineProperty(Object.prototype, "axJoin", {
+	enumerable: false,
+	writable: true
+});
+
+Object.defineProperty(Array.prototype, "axJoin", {
+	enumerable: false,
+	writable: true
+});
+
+Object.prototype.axJoin = function (prefix = '', separator = '&') {
+	let
+		arr = [];
+
+	for (const key in this) {
+		arr.push(prefix + key + '=' + this[key]);
+	};
+
+	return arr.join(separator);
+};
+
+Array.prototype.axJoin = function (prefix = '', separator = '&') {
+	let
+		arr = [];
+
+	this.forEach((e, i) => {
+		arr.push(prefix + i + '=' + e);
+	});
+
+	return arr.join(separator);
+};
+
+
+Object.defineProperty(Object.prototype, "executeFunctions", {
+	enumerable: false,
+	writable: true
+});
+
+Object.defineProperty(Array.prototype, "executeFunctions", {
+	enumerable: false,
+	writable: true
+});
+
+Object.prototype.executeFunctions = function (arg) {
+	for (const key in this) {
+		this[key](arg)
+	};
+};
+
+Array.prototype.executeFunctions = function (arg) {
+	this.forEach(f => f(arg));
+};
+
+axFunction = class axFunction {
+	constructor(f) {
+		if (!axFunction.load) {
+			axFunction.functions.push(f);
+		} else {
+			f();
+		};
+	};
+};
+
+axFunction.functions = [];
+axFunction.load = false;
+
+axURL = class axURL {
+	save_history = false;
+	title = false;
+
+	constructor(urlPath, obj = {}) {
+		this.urlPath = urlPath;
+		Object.assign(this, obj);
+	};
+
+	update() {
+		if (!this.save_history) {
+			window.history.replaceState({}, "", this.urlPath);
+		} else {
+			window.history.pushState({}, "", this.urlPath);
+		};
+		if (this.title) {
+			document.title = this.title;
+		};
+	};
+
+	addGetParam(name, value) {
+		let
+			delimeter = '?',
+			added = '';
+
+		if (this.urlPath.indexOf('?') > -1) {
+			delimeter = '&';
+		};
+
+		if (value === undefined) {
+			added = delimeter + name;
+		} else {
+			added = delimeter + name + '=' + value;
+		};
+
+		this.urlPath += added;
+		return this;
+	}
+
+	addGetParamObj(obj) {
+		let
+			delimeter = '?';
+
+		if (this.urlPath.indexOf('?') > -1) {
+			delimeter = '&';
+		};
+
+		this.urlPath += delimeter + obj.axJoin();
+
+		return this;
+	}
+};
+
+axGet = class axGet {
+	constructor() {
+		if (!this.params && window.location.href.match(/.*\?.*/)) {
+			this.params = {};
+			window.location.href.replace(/.*\?/, '').split('&').forEach(value => {
+				let
+					tmp = value.split('=');
+				this.params[tmp[0]] = tmp[1];
+			});
+		} else {
+			this.getParam = () => {
+				return undefined;
+			}
+		}
+	};
+	getParam(param) {
+		return this.params[param];
+	};
+};
+
+Number.prototype.axRange = function (a, b) {
+	if (a < b) {
+		return this >= a && this <= b;
+	} else if (a > b) {
+		return this <= a && this >= b;
+	} else if (a == b) {
+		return this == a;
+	}
+};
+
+axCanvasElement = class axCanvasElement {
+	kill = false;
+	color = '#000000';
+	reactive = false;
+	eventStopper = false;
+	events = {};
+
+	constructor(x = 0, y = 0, width = 10, height = 10) {
+		this.x = x;
+		this.y = y;
+		this.width = width;
+		this.height = height;
+	}
+
+	drawFunction(canvas) {
+		canvas.ctx.fillStyle = this.color;
+		canvas.ctx.fillRect(this.x, this.y, this.width, this.height);
+	}
+
+	workFunctions(canvas) {
+		this.drawFunction(canvas);
+		this.updateFunction(canvas);
+	}
+
+	updateFunction(canvas) {
+		return;
+	}
+
+	isThereCoord(x, y) {
+		let
+			el = this,
+			bool = (x.axRange(el.x, el.x + el.width) && y.axRange(el.y, el.y + el.height));
+		return bool;
+	}
+};
+
+axJson = class axJson {
+	static setting = {
+		li: false,
+		ul: false,
+		all_tools: true,
+		hidden_object: true,
+		hidden_dell: false,
+		hidden_add: false,
+		hidden_type: false,
+		edit_keys: false,
+		edit_values: false,
+		object_display_name_key: 'name',
+		array_display_name_key: 0,
+		depth_set: [],
+		key_set: {}
+	};
+
+	constructor(jsonOrObj) {
+		if (typeof (jsonOrObj) == 'object') {
+			this.data = jsonOrObj;
+		} else {
+			this.data = JSON.parse(jsonOrObj);
+		}
+	}
+
+	static ul(obj, setting = {}) {
+		if (setting.depth === undefined) {
+			setting.depth = 0;
+		} else {
+			setting.depth++;
+		}
+
+		let
+			ul = new axNode('ul.ax-json'),
+			keys = Object.keys(obj);
+
+		if (Array.isArray(obj)) {
+			ul.classList.toggle('ax-json-array');
+		}
+
+		for (const key of keys) {
+			ul.append(axJson.li(key, obj[key], setting));
+		}
+		ul.append(axJson.liCreate(setting));
+
+		ul.isArray = Array.isArray(obj);
+
+		ul.getJsonObj = axJson.getJsonObj;
+
+		ul.searchKey = function (key) {
+			return Array.from(this.childNodes).filter((li) => {
+				return li.classList.contains('ax-json__item') && li.childNodes[1].childNodes[0].value == key;
+			})
+		};
+		return ul;
+	}
+
+	static getJsonObj() {
+		let
+			childs = this.childNodes,
+			object = {};
+
+		childs.forEach((li) => {
+			if (li.classList.contains('ax-json__item')) {
+				let
+					data = axJson.getJsonDataFromLi(li);
+				object[data[0]] = data[1];
+			}
+		});
+
+		if (this.isArray) {
+			object = Object.values(object);
+		}
+
+		return object;
+	}
+
+	static getJsonDataFromLi(el) {
+		let
+			key_element = el.childNodes[1],
+			value_element = el.childNodes[2],
+			key = key_element.childNodes[0].value,
+			type = key_element.childNodes[1].innerText,
+			value;
+
+		if (type == 'array' || type == 'object') {
+			value = value_element.childNodes[1];
+			value = value.getJsonObj();
+		} else if (type == 'bool') {
+			value = !!Number(value_element.childNodes[0].value);
+		} else {
+			value = value_element.childNodes[0];
+			if (type == 'number') {
+				value = Number(value.value);
+			} else {
+				value = value.value;
+			}
+		}
+		return [key, value];
+	}
+
+	static liCreate(setting = {}) {
+		let
+			li = new axNode('li.ax-json__create-item'),
+			button = new axNode('div.ax-json__create-button');
+
+		button.innerText = 'add item +';
+
+		button.addEventListener('click', function () {
+			let
+				data;
+
+			if (li.previousElementSibling) {
+				data = axJson.getJsonDataFromLi(li.previousElementSibling);
+				if (li.parentElement.isArray) {
+					data[0]++;
+				}
+			} else {
+				if (li.parentElement.isArray) {
+					data = [
+						'0',
+						'value'
+					];
+				} else {
+					data = [
+						'key_1',
+						'value'
+					];
+				}
+			}
+
+
+			li.before(axJson.li(data[0], data[1]));
+		});
+
+		li.append(button);
+
+		return li;
+	}
+
+	static li(key, val, setting = {}) {
+		let
+			type = axJson.takeType(val),
+			li = new axNode('li.ax-json__item'),
+			key_element = new axNode('div.ax-json__key-container'),
+			key_element_key = new axNode('input[type=text].ax-json__key-input'),
+			key_element_type = new axNode('div.ax-json__type-item'),
+			dell = new axNode('div.ax-json__dell-item');
+
+		key_element_type.jsonType = type;
+
+		key_element_type.addEventListener('click', function () {
+			let
+				valueTypes = axJson.valueTypes,
+				idType = valueTypes.indexOf(this.jsonType) + 1,
+				nextType = valueTypes[(idType >= valueTypes.length) ? 0 : idType],
+				newValue = 0;
+
+			if (this.oldJsonValue == undefined) {
+				this.oldJsonValue = axJson.getJsonDataFromLi(li)[1];
+				this.oldJsonValueType = this.jsonType;
+			}
+
+			newValue = this.oldJsonValue;
+
+			li.classList.remove('ax-json__' + this.jsonType);
+			li.classList.add('ax-json__' + nextType);
+
+			if (this.oldJsonValueType == 'object') {
+				if (nextType == 'array') {
+					newValue = Object.values(this.oldJsonValue);
+				} else if (nextType != 'object') {
+					newValue = JSON.stringify(this.oldJsonValue[Object.keys(this.oldJsonValue)[0]]);
+				}
+			} else if (this.oldJsonValueType == 'array') {
+				if (nextType == 'object') {
+					newValue = Object.assign({}, this.oldJsonValue);
+				} else if (nextType != 'array') {
+					newValue = JSON.stringify(this.oldJsonValue[0]);
+				}
+			} else {
+				if (nextType == 'array') {
+					newValue = [this.oldJsonValue];
+				} else if (nextType == 'object') {
+					newValue = { key_1: this.oldJsonValue };
+				}
+			}
+
+			key_element_type.jsonType = nextType;
+			key_element_type.innerText = nextType;
+
+			let
+				newValueElement = axJson.liValue(newValue, setting, nextType);
+
+			newValueElement.addEventListener('input', () => {
+				delete this.oldJsonValue;
+			}, { once: true });
+
+			li.childNodes[2].replaceWith(newValueElement);
+		});
+
+		dell.addEventListener('click', () => {
+			li.remove();
+		});
+
+		dell.innerText = 'x';
+
+		key_element_key.value = key;
+		key_element_type.innerText = type;
+		li.classList.add('ax-json__' + type);
+
+		key_element.append(key_element_key, key_element_type);
+
+		li.append(dell, key_element);
+
+		li.append(axJson.liValue(val, setting, type));
+		return li;
+	}
+
+	static liValue(val, setting = {}, type = false) {
+		let
+			val_element = new axNode('div.ax-json__value-container');
+		if (type == false) {
+			type = axJson.takeType(val);
+		};
+		if (typeof (val) == 'object') {
+			let
+				show_button = new axNode('button.ax-json__show-button'),
+				show_button_i = new axNode('span'),
+				ul = axJson.ul(val, setting),
+				display_name = new axNode('div.ax-json__display-obj-name');
+
+			if (axJson.getSetting(setting, 'hidden_object') === true) {
+				ul.classList.toggle('hidden');
+			} else {
+				show_button.classList.toggle('active');
+			}
+
+			show_button.addEventListener('click', (e) => {
+				show_button.classList.toggle('active');
+				ul.classList.toggle('hidden');
+				if (e.isTrusted == false) {
+					return;
+				}
+				ul.axQSA('.ax-json__value-container > .ax-json__show-button.active').forEach((button) => {
+					button.click(false);
+				});
+			});
+
+			show_button_i.innerText = '>';
+			show_button.append(show_button_i);
+
+			let
+				nameKey = axJson.getSetting(setting, type + '_display_name_key');
+
+			function replaceName() {
+				display_name.innerText = this.value;
+			};
+
+			if (nameKey !== false) {
+				ul.childNodes.forEach((el) => {
+					if (el.classList.contains('ax-json__item')) {
+						el.childNodes[1].childNodes[0].addEventListener('input', function () {
+							if (this.value == nameKey) {
+								el.childNodes[2].childNodes[0].addEventListener('input', replaceName);
+								display_name.innerText = el.childNodes[2].childNodes[0].value;
+							} else {
+								el.childNodes[2].childNodes[0].removeEventListener("mousedown", replaceName, false);
+								display_name.innerText = (ul.isArray) ? ':array:' : ':object:';
+							}
+						});
+						if (el.childNodes[1].childNodes[0].value == nameKey) {
+							el.childNodes[2].childNodes[0].addEventListener('input', replaceName);
+							display_name.innerText = el.childNodes[2].childNodes[0].value;
+						};
+					};
+				});
+				if (display_name.innerText == '') {
+					display_name.innerText = (ul.isArray) ? ':array:' : ':object:';
+				}
+			};
+
+			show_button.append(display_name);
+
+			val_element.append(show_button);
+			val_element.append(ul);
+		} else if (type == 'bool') {
+			let
+				select = new axNode('select.ax-json__value-input');
+			select.innerHTML = "<option value='0'>false</option><option value='1'>true</option>";
+			select.childNodes[val + 0].setAttribute('selected', true);
+			val_element.append(select);
+		} else {
+			let
+				input = new axNode('input[type=' + type + '].ax-json__value-input');
+			input.value = val;
+			val_element.append(input);
+		}
+		return val_element;
+	}
+
+	static takeType(val) {
+		let
+			type;
+
+		if (typeof (val) == 'object') {
+			if (Array.isArray(val)) {
+				type = 'array';
+			} else {
+				type = 'object';
+			}
+		} else {
+			if (typeof (val) == 'number') {
+				type = 'number';
+			} else if (/^#[0-9a-f]{3}(?:[0-9a-f]{3})?$/i.test(val)) {
+				type = 'color';
+			} else if (typeof (val) == 'boolean') {
+				type = 'bool';
+			} else {
+				type = 'text';
+			}
+		};
+
+		return type;
+	}
+
+	static getSetting(setting, prop) {
+		if (setting.key && setting.key_set && setting.key_set[setting.key] && setting.key_set[setting.key][prop] !== undefined) {
+			return setting.key_set[setting.key][prop];
+		} else if (setting.depth_set && setting.depth_set[setting.depth] && setting.depth_set[setting.depth][prop] !== undefined) {
+			return setting.depth_set[setting.depth][prop];
+		} if (setting[prop] === undefined) {
+			return axJson.setting[prop];
+		} else {
+			return setting[prop];
+		}
+	};
+
+	static valueTypes = [
+		'bool',
+		'text',
+		'number',
+		'color',
+		'array',
+		'object'
+	];
+};
+
+axCE = axCanvasElement;
+
+axCanvasElementSmart = class axCanvasElementSmart extends axCanvasElement {
+	reactive = true;
+	eventStopper = true;
+	get hover() {
+		return this.events.hover;
+	}
+
+	get click() {
+		return this.events.click;
+	}
+
+	get mouseleave() {
+		return this.events.mouseleave;
+	}
+
+	get mousemove() {
+		return this.events.mousemove;
+	}
+
+	get mouseup() {
+		return this.events.mouseup;
+	}
+
+	get mousedown() {
+		return this.events.mousedown;
+	}
+};
+
+axCanvasElementEvent = class axCanvasElementEvent {
+	active = true;
+	x;
+	y;
+	lifeTime = 1;
+	stack = 1;
+
+	constructor(obj = {}) {
+		Object.assign(this, obj);
+	}
+};
+
+axCES = axCanvasElementSmart;
+
+eventStorage = class eventStorage {
+	mousePosition;
+	clickTrigger = 3;
+	events = {};
+	save(name, e) {
+		let
+			events = this.events;
+		if (events['mouseleave']) {
+			return;
+		}
+		switch (name) {
+			case 'mousemove':
+				this.mousePosition = e;
+				if (events['mouseleave']) {
+					delete events['mouseleave'];
+				};
+				events['mousemove'] = e;
+				break;
+
+			case 'mousedown':
+				if (events['mouseup']) {
+					delete events['mouseup'];
+				};
+				events['mousedown'] = e;
+				break;
+
+			case 'mouseup':
+				if (events['mousedown']) {
+					if (parseInt(events['mousedown'].layerX / this.clickTrigger) == parseInt(e.layerX / this.clickTrigger))
+						events['click'] = e;
+					delete events['mousedown'];
+				};
+
+				events['mouseup'] = e;
+				break;
+
+			case 'mouseleave':
+				events = {};
+				this.mousePosition = false;
+				events['mouseleave'] = e;
+				break;
+
+			default:
+				break;
+		}
+
+	}
+	reset() {
+		if (this.events['mousedown']) {
+			let
+				event = this.events['mousedown'];
+			this.events = {
+				mouseup: event
+			};
+		} else {
+			this.events = {};
+		}
+
+	}
+};
+
+axCanvas = class axCanvas {
+	elements = [];
+	fpsCounter = [];
+	fpsCalculationLength = 90;
+	showFPS = false;
+	eventStorage = new eventStorage();
+
+	constructor(selectorOrElement, width = false, hight = false) {
+		if (typeof (selectorOrElement) == 'string') {
+			this.element = axQS(selectorOrElement);
+		} else {
+			this.element = selectorOrElement;
+		}
+		this.ctx = this.element.getContext('2d');
+		if (!width) {
+			this.width = this.element.width = this.element.clientWidth;
+			this.height = this.element.height = this.element.clientHeight;
+		} else {
+			this.width = this.element.width = width;
+			this.height = this.element.height = hight;
+		}
+		this.repeat = true;
+		this.eventsElements = [];
+
+		this.render = () => {
+			if (this.repeat) {
+				requestAnimationFrame(this.render);
+
+				this.now = Date.now();
+				this.elapsed = this.now - this.then;
+
+				if (this.elapsed > this.fpsInterval) {
+					this.then = this.now - (this.elapsed % this.fpsInterval);
+					this.print();
+
+					if (this.fpsCounter.length > this.fpsCalculationLength - 1) {
+						this.fpsCounter.shift();
+					};
+					this.fpsCounter.push(this.now);
+
+					if (this.showFPS) {
+						this.printFPS();
+					}
+				}
+			}
+		};
+
+		this.sortFuncElements = function (a, b) {
+			return a.y - b.y || a.x - b.x;
+		};
+
+		this.getCursorCoords = () => {
+			return false;
+		};
+
+		let
+			listenerEvents = [
+				'mousemove',
+				'mousedown',
+				'mouseup',
+				'mouseleave'
+			];
+
+		listenerEvents.forEach((eventName) => {
+			this.element.addEventListener(eventName, (e) => {
+				this.eventStorage.save(eventName, e);
+			});
+		});
+	}
+
+	newElement(z = 0, x = 0, y = 0, width = 10, height = 10) {
+		let
+			element = new axCanvasElement(x, y, width, height);
+		this.addElement(element, z);
+		return element;
+	}
+
+	addElement(element, zIndex = 0) {
+		if (!this.elements[zIndex]) {
+			this.elements[zIndex] = [];
+		}
+		this.elements[zIndex].push(element);
+		return this;
+	}
+
+	clear() {
+		this.ctx.clearRect(0, 0, this.width, this.height);
+	}
+
+	stop() {
+		this.repeat = false;
+	}
+
+	start(fps = 60) {
+		this.fpsInterval = 1000 / fps;
+		this.then = Date.now();
+		this.render();
+	}
+
+	print() {
+		this.clear();
+
+		this.eventEngine();
+		this.elements.forEach((zGroups, i1) => {
+			zGroups.sort(this.sortFuncElements);
+			this.elements[i1] = zGroups;
+			zGroups.forEach((el, i2) => {
+				if (el.kill == false) {
+					el.workFunctions(this);
+				} else {
+					this.elements[i1].splice(i2, 1);
+				}
+			});
+		});
+	}
+
+	searchElementsByCoords(x, y, filter = false) {
+		let
+			elements = [];
+		this.elements.forEach((zGroups, i1) => {
+			elements[i1] = [];
+			zGroups.forEach((el) => {
+				if (el.isThereCoord(x, y)) {
+					if (filter) {
+						if (el[filter]) {
+							elements[i1].push(el);
+						}
+					} else {
+						elements[i1].push(el);
+					}
+				}
+			});
+			elements[i1].sort(this.sortFuncElements);
+		});
+
+		return elements;
+	}
+
+	eventEngine() {
+		let
+			events = this.eventStorage.events,
+			x,
+			y;
+
+		if (this.eventStorage.mousePosition) {
+			events['hover'] = this.eventStorage.mousePosition;
+		};
+
+		if (this.eventStorage.mousePosition) {
+			let
+				coords = this.normalizeLayerCoordinates(this.eventStorage.mousePosition.layerX, this.eventStorage.mousePosition.layerY);
+			x = coords[0];
+			y = coords[1];
+		};
+		this.resetEvents();
+		if (events['mouseleave'] || x === undefined) {
+			let
+				elementsArr = this.eventsElements,
+				killEvent = [
+					'hover',
+					'mousedown',
+				];
+			elementsArr.forEach((el, i) => {
+				if (el.events['hover']) {
+					el.events['mouseleave'] = new axCanvasElementEvent({});
+				};
+				killEvent.forEach((event) => {
+					if (el.events[event]) {
+						delete el.events[event];
+					};
+				});
+			});
+		} else if (x != undefined) {
+			let
+				elements = this.searchElementsByCoords(x, y, 'reactive');
+			if (events['mousemove']) {
+				let
+					elementsArr = this.eventsElements;
+				elementsArr.forEach((el) => {
+					if (el.events['hover'] && !el.isThereCoord(x, y)) {
+						delete el.events['hover'];
+
+						el.events['mouseleave'] = new axCanvasElementEvent({});
+					};
+				});
+			};
+
+			for (let i = elements.length - 1; i >= 0; i--) {
+				let
+					zGroup = elements[i];
+				if (zGroup)
+					for (let j = zGroup.length - 1; j >= 0; j--) {
+						let
+							element = zGroup[j];
+						if (events['click']) {
+							element.events['click'] = new axCanvasElementEvent({
+								x: x,
+								y: y
+							});
+						};
+						if (events['mouseup']) {
+							if (element.events['mousedown']) {
+								if (
+									element.events['mousedown'].stack < 3
+									&&
+									(parseInt(element.events['mousedown'].x / this.eventStorage.clickTrigger) == parseInt(x / this.eventStorage.clickTrigger))
+								) {
+									element.events['click'] = new axCanvasElementEvent({
+										x: x,
+										y: y
+									});
+								};
+								delete element.events['mousedown'];
+							};
+							element.events['mouseup'] = new axCanvasElementEvent({
+								x: x,
+								y: y
+							});
+						};
+						if (events['mousedown']) {
+							element.events['mousedown'] = new axCanvasElementEvent({
+								x: x,
+								y: y
+							});
+						};
+						if (events['mousemove']) {
+							element.events['mousemove'] = new axCanvasElementEvent({
+								x: x,
+								y: y
+							});
+							element.events['hover'] = new axCanvasElementEvent();
+						} else if (events['hover']) {
+							element.events['hover'] = new axCanvasElementEvent();
+						};
+
+						this.eventsElements.push(element);
+					}
+			}
+		}
+		this.eventStorage.reset();
+	}
+	resetEvents() {
+		let
+			elementsArr = this.eventsElements,
+			killEvent = [
+				'click',
+				'mousemove',
+				'mouseup',
+				'mouseleave'
+			],
+			length = elementsArr.length;
+		for (let i = 0; i < length; i++) {
+			let
+				el = elementsArr[i];
+			killEvent.forEach((event) => {
+				if (el.events[event]) {
+					delete el.events[event];
+				}
+			});
+			if (Object.keys(el.events).length == 0) {
+				elementsArr.splice(i, 1);
+				i--;
+				length = elementsArr.length;
+			};
+		};
+		this.eventsElements = elementsArr;
+	}
+	printFPS() {
+		this.ctx.font = '14px consolas';
+		this.ctx.fillStyle = 'green';
+		this.ctx.fillText(this.fps() + ' fps', this.width - 55, 14);
+	}
+	normalizeLayerCoordinates(layerX, layerY) {
+		let
+			x = Math.round(layerX / this.element.clientWidth * this.width),
+			y = Math.round(layerY / this.element.clientHeight * this.height);
+		return [x, y];
+	}
+	fps() {
+		let
+			l = this.fpsCounter.length;
+		if (l < 5) {
+			return 30;
+		}
+		let
+			time = this.fpsCounter[l - 1] - this.fpsCounter[0],
+			fps = parseInt(1000 / (time / l));
+		return fps;
+	}
+};
+
+axModularFunction = class axModularFunction {
+	static functions = {};
+	static waitingElements = {};
+
+	constructor(id, func) {
+		let
+			mf = axModularFunction;
+		if (typeof (mf.functions[id]) != 'object') {
+			mf.functions[id] = [];
+			if (mf.waitingElements[id]) {
+				mf.waitingElements[id].forEach((el) => {
+					func(el);
+				});
+			}
+		}
+		mf.functions[id].push(func);
+		return true;
+	}
+};
+
+new axModularFunction('ax_date', (el) => {
+	let
+		date = new axDate(el.innerText),
+		dateType = el.getAttribute('type');
+
+	datePrint = document.createTextNode(date.getPrepareDate(dateType, differenceDate));
+	el.after(datePrint);
+	el.remove();
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+	console.log('AxNikita JS ' + window.ax_lib_info.version + ' ' + window.ax_lib_info.last_update);
+	axFunction.functions.executeFunctions();
+	axQS('body').componentLoader();
+	axFunction.load = true;
+});
