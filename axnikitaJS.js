@@ -356,21 +356,27 @@ axRequest = class axRequest {
 		if (typeof (data) == 'object') {
 			data = Object.assign(data, this.dataTemplate);
 
-			if (Object.keys(data).length == 0) {
-				type = "GET";
-			} else {
-				if (type == "GET") {
-					let
-						url = new axURL(href);
-					url.addGetParamObj(data);
-					href = url.urlPath;
+			if (type == 'auto') {
+				if (Object.keys(data).length == 0) {
+					type = "GET";
 				} else {
-					data = data.toFormData();
+					if (type == "GET") {
+						let
+							url = new axURL(href);
+						url.addGetParamObj(data);
+						href = url.urlPath;
+					} else {
+						data = data.toFormData();
+					}
 				}
-			}
-		} else {
-			type = "GET";
-		};
+			} else {
+				type = "GET";
+			};
+
+			if (type == "auto") {
+				type = "POST";
+			};
+		}
 
 		xhr.open(type, href);
 
